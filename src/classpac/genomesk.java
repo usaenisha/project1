@@ -93,7 +93,8 @@ public class genomesk {
 	
 	driver.findElement(By.xpath("//*[@name=\"countryName\"]")).sendKeys("kalol");
 	System.out.println("countryName");
-	Thread.sleep(2000);		
+	Thread.sleep(2000);		 
+	
 			
 	driver.findElement(By.xpath("//*[@name=\"zip\"]")).sendKeys("12345");
 	System.out.println("ZIP");
